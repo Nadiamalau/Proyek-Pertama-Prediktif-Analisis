@@ -34,7 +34,7 @@ Berikut merupakan detail dari _dataseat_ yang digunakan untuk pembuatan model:
 - Status Pembayaran: Ini bisa merujuk pada apakah pembayaran telah dilakukan 
   sepenuhnya atau masih dalam proses pembayaran kredit atau cicilan.
 - Kelamin: Jenis kelamin dari calon pembeli mobil(wanita atau laki-laki)
-- Meiliki mobil :
+- Memiliki mobil :
 - Penghasilan : merujuk pada jumlah pendapatan yang diperoleh oleh individu 
   atau rumah tangga.Penghasilan dapat diukur dalam berbagai interval 
   waktu,seperti bulanan atau tahunan.Ini adalah sumber dana yang digunakan 
@@ -42,5 +42,7 @@ Berikut merupakan detail dari _dataseat_ yang digunakan untuk pembuatan model:
   dan lain sebagainya.
 - Beli mobil : prediksi calon pembeli yang ingin membeli mobil atau tidak.
   Untuk memahami data lebih lanjut,dilakukan Analisis Univariat dan Analisis Multivariat,serta Visualisasi Data
-
+Analisis univariat adalah proses menganalisis data yang berkonsentrasi pada satu  variabel tunggal pada suatu waktu.Ini melibatkan pemeriksaan statik deskriptif dan visualisasi untuk memahami distribusi variabel tersebut dalam dataset.Sebaliknya,analisis multivariat melibatkan lebih dari dua variabel sekaligus dan bertujuan untuk memahami hubungan tentang pola dan iterabksi yang memungkinkan terjadi di antara fitur-fitur tersebut dalam dataset multidimensional.
+Selain analisis,visualisasi data juga sangat penting dalam pemahaman dataset.Melalui visualisasi,kita dapat memperoleh pemahaman yang lebih mendalam tentang perilaku berbagai fitur dalam dataset.Beberapa teknik visualisai yang digunakan dalam proyek ini termasuk penggunaan catplot,yang berguna untuk memplot distribusi data kategorikal yang membantu dalam mengeksplorasi hubungan antara berbagai fitur dalam dataset;dan heatmap,yang memungkinkan kita untuk memvisulaisasikan kolerasi antar fitur dalam bentuk matriks,memudahkan identifikasi pola hubungan di antara variabel-variabel tersebut.
+Berikut adalah hasil Exploratory Data Analysis(EDA),dimana Gamabar 1 merupakan EDA Analisis Univariat dan Gambar 2 merupakan EDA Analisis Multivariat. 
   
