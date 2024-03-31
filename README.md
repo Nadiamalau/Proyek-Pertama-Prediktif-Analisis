@@ -1,5 +1,7 @@
 # Laporan Proyek : prediksi calon pembeli & regresi logistik
-# Domain Proyek
+
+### Domain Proyek
+
 Harga mobil merupakan salah satu faktor penting yang perlu diperhatikan saat membeli mobil baru. Harga mobil berbeda tergantung pada merek, tipe, dan tahun produksi mobil. Harga merupakan seberapa besar pengorbanan (sacrifice) yang diperlukan untuk membeli suatu produk sekaligus dijadikan sebagai indicator level of quality. Sedangkan (Kotler, 2015) mendefinisikan harga sebagai sejumlah uang yang dibayarkan atas barang dan jasa, atau jumlah nilai yang konsumen tukarkan dalam rangka mendapatkan manfaat dari memiliki atau menggunakan barang dan jasa.Oleh karena itu, dengan mempertimbangkan faktor-faktor tersebut, yang juga tersedia pada dataset, maka dapat diestimasi harga dari mobil tersebut dan melihat seberapa besar korelasi pengaruh faktor-faktor tersebut.
 # Business Understanding
 Pengembangan model prediksi harga mobil memiliki dampak yang sangat bermanfaat dalam mengambil keputusan oleh calon pembebeli mobil.Contohnya adalah prediksi harga mobil yang akurat dalam pengambilan keputusan dan mempertimbangkan apakah calon pembeli akan membeli mobil atau tidak.
@@ -44,5 +46,22 @@ Berikut merupakan detail dari _dataseat_ yang digunakan untuk pembuatan model:
   Untuk memahami data lebih lanjut,dilakukan Analisis Univariat dan Analisis Multivariat,serta Visualisasi Data
 Analisis univariat adalah proses menganalisis data yang berkonsentrasi pada satu  variabel tunggal pada suatu waktu.Ini melibatkan pemeriksaan statik deskriptif dan visualisasi untuk memahami distribusi variabel tersebut dalam dataset.Sebaliknya,analisis multivariat melibatkan lebih dari dua variabel sekaligus dan bertujuan untuk memahami hubungan tentang pola dan iterabksi yang memungkinkan terjadi di antara fitur-fitur tersebut dalam dataset multidimensional.
 Selain analisis,visualisasi data juga sangat penting dalam pemahaman dataset.Melalui visualisasi,kita dapat memperoleh pemahaman yang lebih mendalam tentang perilaku berbagai fitur dalam dataset.Beberapa teknik visualisai yang digunakan dalam proyek ini termasuk penggunaan catplot,yang berguna untuk memplot distribusi data kategorikal yang membantu dalam mengeksplorasi hubungan antara berbagai fitur dalam dataset;dan heatmap,yang memungkinkan kita untuk memvisulaisasikan kolerasi antar fitur dalam bentuk matriks,memudahkan identifikasi pola hubungan di antara variabel-variabel tersebut.
-Berikut adalah hasil Exploratory Data Analysis(EDA),dimana Gamabar 1 merupakan EDA Analisis Univariat dan Gambar 2 merupakan EDA Analisis Multivariat. 
+Berikut adalah hasil Exploratory Data Analysis(EDA),dimana Gamabar 1 merupakan EDA Analisis Univariat dan Gambar 2 merupakan EDA Analisis Multivariat. ![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/608cf83c-9f5f-4949-98a0-35b12567d1a1)
+
+Gambar 1a.Analisis Univariat (Data Kategori)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/cd9a73a3-7204-46fb-a48a-ca928d47dc13)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/e55b31e7-ac6d-403c-a25a-a604b77e8a17)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/890ca83e-a921-463b-a90e-026c3a495436)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/788b6d02-aa78-422d-a7c2-8a38b7525ee9)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/e7230248-236b-4e56-9989-37c7be681b3a
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/ea2be2a4-d809-46a1-8667-e6c70e2471a9)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/8c0e90a5-4c09-4a59-add7-23409f493761)
+
+
+
+
+
+
+
   
