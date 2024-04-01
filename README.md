@@ -60,6 +60,14 @@ Gambar 1a.Analisis Univariat (Data Kategori)
 
 ![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/9e5e9ee4-b0d2-42f9-88df-fa0d2e46f391)
 
+Gambar 1b.Analisis Univrait (Data Numerik)
+
+Berdasarkan Gambar 1a, dapat dilihat bahwa distribusi kategori untuk
+- jenis kelamin dapat diperhatikan bahwa nilai 0 adalah prediksi untuk jenis kelamin pria dan nilai 1 adalah prediksi jenis kelamin wanita
+untuk data 
+- distribusi status menikah,pada peringkat pertama yaitu sudah menikah terletak pada frekuensi 550,lalu pada peringkat kedua ada pada statut belum/tidak menikah terletak pada frekuensi 220 dan yang terakhir yaitu cerai pada frekuensi 210.
+- status ekonomi yaitu kelas atas terletak pada frekuensi 498 dan selanjutnya kelas menengah dan kelas bawah terletak pada frekuensi 250.
+- Beli vs tidak beli dan memiliki mobil,pada distribusi ini kemungkinan 
 
 						
 							
