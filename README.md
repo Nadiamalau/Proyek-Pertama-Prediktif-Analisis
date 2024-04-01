@@ -3,25 +3,33 @@
 ### Domain Proyek
 
 Harga mobil merupakan salah satu faktor penting yang perlu diperhatikan saat membeli mobil baru. Harga mobil berbeda tergantung pada merek, tipe, dan tahun produksi mobil. Harga merupakan seberapa besar pengorbanan (sacrifice) yang diperlukan untuk membeli suatu produk sekaligus dijadikan sebagai indicator level of quality. Sedangkan (Kotler, 2015) mendefinisikan harga sebagai sejumlah uang yang dibayarkan atas barang dan jasa, atau jumlah nilai yang konsumen tukarkan dalam rangka mendapatkan manfaat dari memiliki atau menggunakan barang dan jasa.Oleh karena itu, dengan mempertimbangkan faktor-faktor tersebut, yang juga tersedia pada dataset, maka dapat diestimasi harga dari mobil tersebut dan melihat seberapa besar korelasi pengaruh faktor-faktor tersebut.
-# Business Understanding
+
+## Business Understanding
+
 Pengembangan model prediksi harga mobil memiliki dampak yang sangat bermanfaat dalam mengambil keputusan oleh calon pembebeli mobil.Contohnya adalah prediksi harga mobil yang akurat dalam pengambilan keputusan dan mempertimbangkan apakah calon pembeli akan membeli mobil atau tidak.
-# Pertanyaan Masalah
+
+### Pertanyaan Masalah
 - Apa saja fitur-fitur yang paling signifikanataset eksplorasi yang mempengaruhi estimasi harga mobil?
 - Bagaimana cara mengolah dataset mobil untuk membangun model prediksi harga yang akurat?
 - Apa strategi yang efektif untuk meningkatkan nilai kinerja model prediksi harga mobil?
-# Sasaran
-# pernyataan Solusi
+ 
+### Sasaran
+
+### pernyataan Solusi
 - Untuk eksplorasi fitur dilakukan Analisis Univariat dan Analisis Multivariat. Analisis Univariat dilakukan untuk mengeksploasi data numerik dan kategorik data. Analisis Multivariat dilakukan untuk melihat hubungan antar fitur. Teknik yang digunakan adalah menggunakan catplot, pairplot, dan heatmap untuk melihat Correlation Matrix dari fitur-fitur yang dimiliki.
 - Agar diperoleh model prediksi yang baik maka dilakukan proses Data Wragling yang meliputi Data Gathering,Data Assessing ,dan Data Cleaning .
 - Untuk mengetahui model kinerja dilakukan pengecekan kinerja dengan metrik evaluasi.
-# Pemahaman Data 
+  
+### Pemahaman Data 
 Model ini menggunakan data yang telah ada sebelumnya dan terkumpul di platform Kaggle sebagai data sumbernya.Dengan nama prediksi calon pembeli & regresi logistik
 URL : https://www.kaggle.com/code/ajieraflipamungkas/prediksi-calon-pembeli-regresi-logistik/notebook
 Berikut merupakan detail dari _dataseat_ yang digunakan untuk pembuatan model:
 - Kumpulan data berupa CSV
 - Data terdiri dari 1000 __record_ dengan 7 buah fitur yang diukur
 - Data terdiri dari 1 kategori dan 6 data numerik
-# Variabel-variabel pada _dataset_ adalah sebagai berikut:
+
+
+### Variabel-variabel pada _dataset_ adalah sebagai berikut:
 - bujur : koordinat geografis yang digunakan untuk menunjukkan posisi suatu titik dari arah utara ke selatan yang digunakan menentukan posisi suatu titik pada permukaan bumi (diukur dalam satuan derajat)
 - garis lintang : koordinat geografis yang digunakan untuk menunjukkan posisi suatu titik dari arah timur ke barat yang digunakan untuk menentukan posisi suatu titik pada permukaan bumi (diukur dalam satuan derajat)
 - Id : Merupakan angka dari data tersebut
@@ -50,13 +58,19 @@ Berikut adalah hasil Exploratory Data Analysis(EDA),dimana Gamabar 1 merupakan E
 
 Gambar 1a.Analisis Univariat (Data Kategori)
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/cd9a73a3-7204-46fb-a48a-ca928d47dc13)
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/e55b31e7-ac6d-403c-a25a-a604b77e8a17)
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/890ca83e-a921-463b-a90e-026c3a495436)
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/788b6d02-aa78-422d-a7c2-8a38b7525ee9)
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/e7230248-236b-4e56-9989-37c7be681b3a
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/ea2be2a4-d809-46a1-8667-e6c70e2471a9)
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/8c0e90a5-4c09-4a59-add7-23409f493761)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/69886d2d-2155-4eda-87f8-91a0bb18253b)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/7340bc08-b1e8-4e03-83b6-145f90abc197)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/2a9d06cc-4c5d-4354-8e63-0a51d9ff04fd)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/45f11b5e-8c40-4361-bbda-e3ed6d4ba220)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/c039eb45-dbfd-48df-9908-bf3ffc7733a6)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/fac11743-84e1-4b10-ba9d-b4bc4600117f)
+
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/6c759b6c-6932-4c49-a24e-a86fd24b5bbb)
 
 
 
