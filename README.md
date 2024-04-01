@@ -58,19 +58,69 @@ Berikut adalah hasil Exploratory Data Analysis(EDA),dimana Gamabar 1 merupakan E
 
 Gambar 1a.Analisis Univariat (Data Kategori)
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/69886d2d-2155-4eda-87f8-91a0bb18253b)
+![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/9e5e9ee4-b0d2-42f9-88df-fa0d2e46f391)
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/7340bc08-b1e8-4e03-83b6-145f90abc197)
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/2a9d06cc-4c5d-4354-8e63-0a51d9ff04fd)
+						
+							
+							
+							
+							
+							
+							
+							
+							
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/45f11b5e-8c40-4361-bbda-e3ed6d4ba220)
+						
+							
+							
+							
+							
+										
+											
+											
+											
+											
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/c039eb45-dbfd-48df-9908-bf3ffc7733a6)
+				
+					
+			
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/fac11743-84e1-4b10-ba9d-b4bc4600117f)
 
-![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/6c759b6c-6932-4c49-a24e-a86fd24b5bbb)
+						
+			
+							
+							
+							
+							
+							
+							
+							
+					
+	
+
+						
+							
+							
+							
+							
+							
+							
+							
+							
+
+						
+							
+							
+							
+							
+										
+											
+											
+											
+											
+
+
 
 
 
