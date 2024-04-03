@@ -93,10 +93,12 @@ Pada Gambar 2a tampak persebaran data 'Penghasilan' terhadap 'Beli_Mobil'. Denga
 * Kesimpulan akhir, fitur kategori memiliki pengaruh terhadap fitur numerik 'Penghasilan'.
 Pada Gambar 2b, dengan menggunakan fungsi pairplot dari library seaborn, tampak terlihat relasi pasangan dalam dataset. Dari gambar, terlihat plot relasi masing-masing fitur numerik pada dataset. Pada pola sebaran data grafik pairplot, terlihat bahwa 'median_income' memiliki korelasi dengan fitur 'Beli_Mobil'. Sedangkan kedua fitur lainnya terlihat memiliki korelasi yang lemah karena sebarannya tidak membentuk pola
 
-Terakhir, Gambar 2c merupakan Correlation Matrix menunjukkan hubungan antar fitur dalam nilai korelasi. Jika diamati, fitur 'median_income' memiliki skor korelasi yang cukup besar (0.76) dengan fitur 'Beli_Mobil'. Artinya, fitur 'median_house_value' berkorelasi cukup tinggi dengan keempat fitur tersebut. Sementara itu, fitur lainnya memiliki korelasi negatif sehingga fitur tersebut dapat dieliminasi.
+Terakhir, Gambar 2c merupakan Correlation Matrix menunjukkan hubungan antar fitur dalam nilai korelasi. Jika diamati,skor korelasi yang cukup besar (0.76) dengan fitur 'Beli_Mobil'. Artinya, fitur 'Beli_Mobil' berkorelasi cukup tinggi dengan keempat fitur tersebut. Sementara itu, fitur lainnya memiliki korelasi negatif sehingga fitur tersebut dapat dieliminasi.
 * Pemodelan
 Seperti yang dijelaskan di awal, model yang dipilih adalah model regresi karena merupakan salah satu algoritma yang paling umum digunakan dalam pembuatan model prediksi. Dalam bentuk yang sederhana, regresi terdiri dari perpotongan dan kemiringan yang dituliskan dalam rumusan berikut:
 ![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/febf5ece-9018-4c44-bdcb-c014647ed06c)
+
+
 di mana:
 ![image](https://github.com/Nadiamalau/Proyek-Pertama-Prediktif-Analisis/assets/164990623/99d19776-b5f3-4b06-bbfc-7de67269a104)
 Secara umum, regresi ini sendiri digunakan untuk memperkirakan pengaruh variabel prediktor terhadap variabel kriterium atau membuktikan ada atau tidaknya hubungan fungsional antara variabel bebas (X) dengan variabel terikat (y).
